@@ -48,5 +48,21 @@
     "@storybook/addon-links": "^5.1.10",
     "@storybook/addons": "^5.1.10",
     "@storybook/react": "^5.1.10"
+  },
+  "nyc": {
+    "lines": 50,
+    "statements": 50,
+    "functions": 50,
+    "branches": 50,
+    "check-coverage": true,
+    "all": true,
+    "include": [
+      "src/**/*.js"
+    ],
+    "exclude": [
+      "test/**/*.test.js"
+    ],
+    "sourceMap": false,
+    "instrument": false
   }
 }
